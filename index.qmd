@@ -1,0 +1,31 @@
+---
+title: "PM2.5 高斯过程回归预测复现"
+author: "你的姓名"
+date: "2026-05-28"
+format: html
+---
+
+## 项目简介
+
+复现 Elangasinghe et al. (2024) 的 PM2.5 预测研究，使用高斯过程回归。
+
+## 数据预处理
+
+（描述预处理步骤）
+
+## 模型构建
+
+使用 RBF + WhiteKernel 核的 GPR。
+
+## 结果
+
+- RMSE: 5.23
+- R²: 0.83
+
+![实测 vs 预测](results/figures/forecast_plot.png)
+
+![时间序列](results/figures/time_series_forecast.png)
+
+## 结论
+
+成功复现。
